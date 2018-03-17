@@ -1,0 +1,20 @@
+/* change font family */
+body { font-family: Tahoma,Helvetica,Arial,Verdana!important; }
+
+/* remove bold styling on forum names and most recent thread name */
+body.page-forum .forumblock .forumname .forumtitle,
+#wrapper #content .forumcategoryblock .forumpanel .forumlastpost .threadname {
+font-weight: normal;
+}
+
+/* remove left panels */
+#forum > div.section.no-padding-on-mobile > div > div > div.drawer { display: none; }
+
+/* change background image */
+html:before { background: url(https://i.imgur.com/9SQb9Pf.png); }
+
+/* change footer text color */
+#wrapper footer a { color: #565656; }
+
+/* change background color gradient on your own posts */
+.postblock-own .postcontent { background: linear-gradient(to right, #d3e2d3, #fff 512px) !important; }
