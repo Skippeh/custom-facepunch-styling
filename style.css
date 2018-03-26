@@ -18,3 +18,10 @@ html:before { background: url(https://i.imgur.com/9SQb9Pf.png); }
 
 /* change background color gradient on your own posts */
 .postblock-own .postcontent { background: linear-gradient(to right, #d3e2d3, #fff 512px) !important; }
+
+.bglinker > .bglink {
+    left: 6px;
+    top: 13px;
+    height: 17px;
+    width: 200px;
+}
